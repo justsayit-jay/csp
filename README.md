@@ -50,6 +50,7 @@ P = \{a \in \mathbb{Z}_+ : \sum_{i=1}^n a_i l_i \leq L\}
 $$
 
 Using pattern-based variables, the problem can be formulated as:
+
 $$
 \begin{align}
 \min \quad & \sum_{p \in P} \lambda_p \\
