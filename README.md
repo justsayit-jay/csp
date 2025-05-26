@@ -48,7 +48,7 @@ Using pattern-based variables, the problem can be formulated as:
 
 $$
 \begin{align}
-P = \left\{ \mathbf{a} \in \mathbb{Z}_+^n : \sum_{i=1}^{n} a_i l_i \leq L \right\}
+P = \mathbf{a} \in \mathbb{Z}_+^n : \sum_{i=1}^{n} a_i l_i \leq L 
 \end{align}
 $$
 
