@@ -14,6 +14,7 @@ Kantorovich's Formulation is quite direct and traditional model to solve cutting
 
 * Decision variables
 $$
+\begin{align}
 x_j = 
 \begin{cases}
 1, & \text{if roll } j \in M \text{ is used} \\
@@ -21,6 +22,7 @@ x_j =
 \end{cases}
 \qquad
 y_{ij} = \text{number of order } i \in N \text{ cut from roll } j \in M
+\end{align}
 $$
 
 $$
