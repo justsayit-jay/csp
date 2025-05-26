@@ -46,7 +46,7 @@ Instead of defining trivial variables such as roll usage or order usage, Gilmore
 
 $$
 \begin{align}
-P =  \left\{ \mathbf{a} \in \mathbb{Z} \right\}
+P =  { \mathbf{a} \in \mathbb{Z} }
 \end{align}
 $$
 
