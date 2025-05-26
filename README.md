@@ -46,6 +46,9 @@ Instead of defining trivial variables such as roll usage or order usage, Gilmore
 
 $$P =  \lbrace\mathbf{a} \in \mathbb{Z}_+^n : \sum_{i=1}^{n} a_i l_i \leq L\rbrace$$
 
+$$\{1+2\}$$
+
+
 Using pattern-based variables, the problem can be formulated as:
 
 
