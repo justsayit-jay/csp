@@ -43,10 +43,9 @@ $$
 #### 2. Gilmore & Gomory's Formulation
 Instead of defining trivial variables such as roll usage or order usage, Gilmore & Gomory's formulation takes a broader view by introducing cutting patterns as variables. Let $P$ be the set of all feasible cutting patterns, where the total length of orders in each pattern does not exceed the length of a roll.
 
-
 $$
 \begin{align}
-\mathcal{P} = \left\{ \mathbf{a} \in \mathbb{Z}_+^n : \sum_{i=1}^{n} a_i \ell_i \leq L \right\}
+P = \left\{ \mathbf{a} \in \mathbb{Z}_+^n : \sum_{i=1}^{n} a_i l_i \leq L \right\}
 \end{align}
 $$
 
@@ -82,7 +81,7 @@ $$
 
 Here, LP relaxation is employed on $\lambda_p$.
 
-Regard to primal optimal $\lambda$, we could obtain dual optimal $\pi_i$, which abstractly determines how much to use constraint $i$ in primal problem. Reduced cost is defined as $c_N^t - c_B^tB^{-1}N$ and from this problem we can get reduced cost of $\lambda_p$ as :
+Regarding to primal optimal $\lambda$, we could obtain dual optimal $\pi_i$, which abstractly determines how much to use constraint $i$ in primal problem. Reduced cost is defined as $c_N^t - c_B^tB^{-1}N$ and from this problem we can get reduced cost of $\lambda_p$ as :
 
 $$
 \begin{align}
