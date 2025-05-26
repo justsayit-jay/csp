@@ -44,6 +44,7 @@ $$
 
 Instead of defining trivial variables such as roll usage or order usage, Gilmore & Gomory's formulation takes a broader view by introducing cutting patterns as variables. Let $P$ be the set of all feasible cutting patterns, where the total length of orders in each pattern does not exceed the length of a roll.
 
+![pattern](img/img1.png)
 
 Using pattern-based variables, the problem can be formulated as:
 
