@@ -1,5 +1,8 @@
 # Cutting Stock Problem
 
+Reference : [CG](https://github.com/demirayonur/Column-Generation/blob/main/ColumnGeneration_CuttingStockProblem.ipynb)
+
+
 ### Problem Description
 
 There are m identical rolls of length L, and n different orders. Each order requires a length of $l_i$ and has a demand of $d_i$. Each order must be cut as a whole (i.e., it cannot be divided), and multiple orders can be cut from a single roll as long as the total length of the orders on that roll does not exceed L.
