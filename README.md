@@ -67,6 +67,7 @@ We refer to the full problem as the Master Problem (MP) and consider a smaller s
 But how do we determine whether a pattern is promising? By using the dual variables.
 
 ##### RMP
+
 $$
 \begin{align}
 \min \quad & \sum_{p \in \tilde{P}} \lambda_p \\
@@ -89,6 +90,7 @@ $$
 If we could find new pattern $p$ which makes reduced cost less than 0, it provides better optimal value to RMP. To find such new pattern and introduce best reduced cost, we could define Sub Problem under feasible cutting patterns constraint.
 
 #### SP
+
 $$
 \begin{align}
 \min \quad & 1 - \sum_{i = 1}^n \pi_i x_i \\
