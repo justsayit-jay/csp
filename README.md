@@ -45,7 +45,7 @@ Instead of defining trivial variables such as roll usage or order usage, Gilmore
 
 $$
 \begin{align}
-P = \{a \in \mathbb{Z}_+ : \sum_{i=1}^n a_i l_i \leq L\}
+P = \left\{ a \in \mathbb{Z}_+^n : \sum_{i=1}^n a_i l_i \leq L \right\}
 \end{align}
 $$
 
