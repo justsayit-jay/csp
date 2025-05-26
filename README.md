@@ -13,6 +13,7 @@ Two different approaches can be used to solve cutting stock problem. One is call
 Kantorovich's Formulation is quite direct and traditional model to solve cutting stock problem by defining all measures as variables       (assignment-type). It guarantees quality of integer solutions but as scale grows, it might be difficult to achieve solutions within feasible time. 
 
 * Decision variables
+
 $$
 \begin{align}
 x_j = 
