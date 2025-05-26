@@ -33,7 +33,7 @@ $$
 & \sum_{j=1}^m y_{ij} = d_i && \forall i \in N \\
 & \sum_{i=1}^n y_{ij} l_i \leq L && \forall j \in M \\
 & y_{ij} \leq d_i x_j && \forall i \in N,\ \forall j \in M \\
-& x_j \in \{0,1\} && \forall j \in M \\
+& x_j \in \(0,1\) && \forall j \in M \\
 & y_{ij} \in \mathbb{Z}_+ && \forall i \in N,\ \forall j \in M
 \end{align}
 $$
@@ -44,9 +44,12 @@ $$
 
 Instead of defining trivial variables such as roll usage or order usage, Gilmore & Gomory's formulation takes a broader view by introducing cutting patterns as variables. Let $P$ be the set of all feasible cutting patterns, where the total length of orders in each pattern does not exceed the length of a roll.
 
-$P =  \lbrace\mathbf{a} \in \mathbb{Z}_+^n : \sum_{i=1}^{n} a_i l_i \leq L\rbrace$
+$$
+\begin{align}
+P =  \(\mathbf{a} \in \mathbb{Z}_+^n : \sum_{i=1}^{n} a_i l_i \leq L\)
+\end{align}
+$$
 
-$\(1+2\)$
 
 
 Using pattern-based variables, the problem can be formulated as:
