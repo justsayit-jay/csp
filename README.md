@@ -59,7 +59,7 @@ $$
 \end{align}
 $$
 
-Here, $\lambda_p$ is a decision variabe representing the number of times pattern $p \in P$ is used. The coefficient $a_ip$ indicates how many times order  $i \in N$ appears in pattern $p \in P$. (e.g. $a_{32} : denotes how many units of order 3 are included in pattern 2.)
+Here, $\lambda_p$ is a decision variabe representing the number of times pattern $p \in P$ is used. The coefficient $a_ip$ indicates how many times order  $i \in N$ appears in pattern $p \in P$. (e.g. $a_{32}$ : denotes how many units of order 3 are included in pattern 2.)
 
 However, as the number of orders and possible patterns increases, the number of patterns $∣P∣$ can become extremely large, resulting in an integer program with a vast number of variables. To manage this complexity, the Column Generation method is employed.
 
