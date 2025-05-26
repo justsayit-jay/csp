@@ -46,7 +46,7 @@ Instead of defining trivial variables such as roll usage or order usage, Gilmore
 
 $$
 \begin{align}
-P =  \mathbf{a} \in \mathbb{Z}_+^n : \sum_{i=1}^{n} a_i \ell_i \leq L 
+P =  \mathbf{a} 
 \end{align}
 $$
 
